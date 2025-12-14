@@ -1,5 +1,5 @@
 # ORSKEY Dashcam Library
-This is an unofficial library that provides an interface to interact with a ORSKEY dashcams over WiFi via their HTTP API.  
+This is an unofficial library that provides an interface to interact with ORSKEY dashcams over WiFi via their HTTP API.  
 
 ## Features
 - Start and stop the dashcam recording
@@ -9,7 +9,7 @@ This is an unofficial library that provides an interface to interact with a ORSK
 - Download videos from the dashcam
 
 ## Dashcam Compatibility
-This library has only been tested with the following dashcam models:
+This library has been tested with the following dashcam models:
 - ORSKEY 3
 
 If you have tested this library with other models, please consider contributing your findings to help improve compatibility information.
