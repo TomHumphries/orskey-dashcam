@@ -1,0 +1,34 @@
+{
+  "name": "orskey-dashcam",
+  "version": "1.0.0",
+  "description": "Interact with ORSKEY dashcams programmatically.",
+  "author": "Tom Humphries",
+  "keywords": [
+    "orskey",
+    "dashcam"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomHumphries/orskey-dashcam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomHumphries/orskey-dashcam/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "typescript": "^5.9.3"
+  }
+}
