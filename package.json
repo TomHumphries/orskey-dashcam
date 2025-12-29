@@ -1,6 +1,6 @@
 {
   "name": "orskey-dashcam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interact with ORSKEY dashcams programmatically.",
   "author": "Tom Humphries",
   "keywords": [
