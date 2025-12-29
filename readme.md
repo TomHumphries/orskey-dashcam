@@ -10,7 +10,7 @@ This is an unofficial library that provides an interface to interact with ORSKEY
 
 ## Dashcam Compatibility
 This library has been tested with the following dashcam models:
-- ORSKEY 3
+- ORSKEY J10
 
 If you have tested this library with other models, please consider contributing your findings to help improve compatibility information.
 
@@ -40,9 +40,6 @@ const loopVideosFolder = await dashcam.getVideoList({
     page: 1, 
     perPage: 100
 });
-
-if (!loopVideosFolder) {
-    console.log('No videos found in looping folder.');
 
 if (!loopVideosFolder) {
     console.log('No videos found in looping folder.');
